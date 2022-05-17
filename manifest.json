@@ -1,7 +1,7 @@
 {
-  "name": "First Extension",
-  "description": "This is my first extension",
-  "version": "1.0",
+  "name": "Innocent",
+  "description": "Automatically clean up the browsing history of certain websites",
+  "version": "0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html"
