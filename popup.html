@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header flex middle center">
+      <div>Clean some history</div>
+    </div>
+    <div class="main">
+      <div>把当前页添加到清理名单</div>
+      <div id="cruuent-url"></div>
+      <div class="flex between middle">
+        <span>历史记录</span>
+        <input name="history" type="checkbox">
+      </div>
+      <div class="flex between middle">
+        <span>cookies</span>
+        <input name="cookie" type="checkbox">
+      </div>
+      <div class="flex between middle">
+        <span>缓存 localStorage</span>
+        <input name="storage" type="checkbox">
+      </div>
+      <div class="submit-box flex center">
+        <button id="submit-btn">添加</button>
+      </div>
+    </div>
+  </div>
+  <script text="text/javascript" src="/js/jquery.min.js"></script>
+  <script text="text/javascript" src="/js/popup.js"></script>
+</body>
+</html>
